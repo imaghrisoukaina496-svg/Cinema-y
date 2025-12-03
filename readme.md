@@ -1,7 +1,7 @@
 # 🎬 Projet Cinéma — Application Java Swing + DAO + JDBC
 
 ## 📌 Description
-Ce projet consiste à développer une application **Java Swing** de gestion d’un cinéma, connectée à une base de données relationnelle (**MySQL ou PostgreSQL**) via **JDBC**.  
+Ce projet consiste à développer une application **Java Swing** de gestion d’un cinéma, connectée à une base de données relationnelle (**MySQL**) via **JDBC**.  
 L’application permet de gérer la programmation des films, les séances, les salles, et d’assurer un suivi des ventes et recettes avec un module de recherche/filtrage et une visualisation graphique.
 
 ---
@@ -59,8 +59,8 @@ L’application permet de gérer la programmation des films, les séances, les s
 
 ## 📊 Statistiques
 - Graphique intégré : **Recettes par mois**
-- Bibliothèque recommandée : **JFreeChart** (ou équivalent)
-- Accès via bouton / panneau "Statistiques"
+- Bibliothèque recommandée : **JFreeChart** 
+- Accès via bouton / panneau "Fonctionalite"
 
 ---
 
@@ -172,6 +172,13 @@ CREATE TABLE utilisateur (
     private static String login = "root";
     private static String password = "";
     private static Connection connection = null;
+💻 Installation et Execution
+https://github.com/user-attachments/assets/5caedcc9-165c-48a5-a010-12e9d8c0bdff
 
 
-[](url)
+## Auteur
+
+- **Nom :** Soukaina Imaghri  
+- **Projet :** Conception et réalisation d’un projet de cinéma avec NetBeans  
+- **Date :** Décembre 2025  
+- **Encadré par :** Pr. Mohamed LACHGAR  
