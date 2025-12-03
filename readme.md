@@ -167,6 +167,78 @@ CREATE TABLE utilisateur (
     password VARCHAR(150) NOT NULL
 );
 
+🧩 MCD (Merise) — Projet Cinéma
+Entités
+
+FILM
+
+#idFilm
+
+titre
+
+genre
+
+duree
+
+realisateur
+
+SALLE
+
+#idSalle
+
+nom
+
+capacite
+
+SEANCE
+
+#idSeance
+
+dateProjection
+
+prix
+
+ticketsVendus
+
+recettes (calculée : prix × ticketsVendus)
+
+UTILISATEUR (optionnel — authentification)
+
+#idUser
+
+email
+
+password
+
+Associations et cardinalités
+
+PROGRAMMER (projection d’un film)
+
+FILM (1,N) — PROGRAMMER — SEANCE (1,1)
+
+➡️ Un film peut être programmé dans plusieurs séances.
+➡️ Une séance concerne un seul film.
+
+SE_DEROULE_DANS (lieu de projection)
+
+SALLE (1,N) — SE_DEROULE_DANS — SEANCE (1,1)
+
+➡️ Une salle peut accueillir plusieurs séances.
+➡️ Une séance se déroule dans une seule salle.
+
+Contrainte métier
+
+Unicité d’une séance :
+Il est interdit d’avoir deux séances avec :
+
+le même film
+
+la même salle
+
+la même dateProjection
+
+➡️ (film, salle, dateProjection) doit être unique.
+
 ## Configurer la connexion JDBC
     private static String url = "jdbc:mysql://localhost:3306/cinema?     useSSL=false&serverTimezone=UTC";
     private static String login = "root";
