@@ -175,9 +175,10 @@ CREATE TABLE utilisateur (
 💻 Installation et Execution
 https://github.com/user-attachments/assets/5caedcc9-165c-48a5-a010-12e9d8c0bdff
 
+💻 Démonstration dans NetBeans
+https://github.com/user-attachments/assets/60e4be62-dc43-4f39-b0d7-b8a4c07f0ff9
 
 ## Auteur
-
 - **Nom :** Soukaina Imaghri  
 - **Projet :** Conception et réalisation d’un projet de cinéma avec NetBeans  
 - **Date :** Décembre 2025  
