@@ -174,5 +174,4 @@ CREATE TABLE utilisateur (
     private static Connection connection = null;
 
 
-<video controls src="videos/cinema.mp4" title="cinema"></video>
-<video controls src="videos/cinema1.mp4" title="cinema"></video>
+[](url)
