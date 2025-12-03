@@ -95,6 +95,7 @@ L’application permet de gérer la programmation des films, les séances, les s
 
 
 ## 🧱 Architecture du projet (MVC léger)
+```md
 Cinema
  └── Source Packages
      │
@@ -126,8 +127,10 @@ Cinema
           │
           ├── FiltrageSeanceForm.java
           └── RecettesChartForm.java
+```
 
 ## Créer la base de données
+```md
 CREATE DATABASE IF NOT EXISTS cinema;
 USE cinema;
 
@@ -166,7 +169,7 @@ CREATE TABLE utilisateur (
     email VARCHAR(100) NOT NULL,
     password VARCHAR(150) NOT NULL
 );
-
+```
 🧩 MCD (Merise) — Projet Cinéma
 Entités
 
@@ -239,15 +242,11 @@ la même dateProjection
 
 ➡️ (film, salle, dateProjection) doit être unique.
 
-## Configurer la connexion JDBC
-    private static String url = "jdbc:mysql://localhost:3306/cinema?     useSSL=false&serverTimezone=UTC";
-    private static String login = "root";
-    private static String password = "";
-    private static Connection connection = null;
-💻 Installation et Execution
+    
+## Installation et Execution
 https://github.com/user-attachments/assets/5caedcc9-165c-48a5-a010-12e9d8c0bdff
 
-💻 Démonstration dans NetBeans
+## Démonstration dans NetBeans
 https://github.com/user-attachments/assets/60e4be62-dc43-4f39-b0d7-b8a4c07f0ff9
 
 ## Auteur
