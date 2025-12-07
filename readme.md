@@ -85,7 +85,6 @@ L’application permet de gérer la programmation des films, les séances, les s
 ### Table `Seance`
 | Champ | Type | Contraintes |
 |------|------|-------------|
-| id | INT | PK, auto-incrément |
 | film_id | INT | FK → Film(id_film) |
 | salle_id | INT | FK → Salle(id_salle) |
 | dateProjection | TIMESTAMP/DATE | NOT NULL |
@@ -149,7 +148,6 @@ CREATE TABLE Salle (
 );
 
 CREATE TABLE Seance (
-    id INT AUTO_INCREMENT PRIMARY KEY,
     film_id INT NOT NULL,
     salle_id INT NOT NULL,
     dateProjection DATETIME NOT NULL,
@@ -172,6 +170,7 @@ CREATE TABLE utilisateur (
 ```
 🧩 MCD (Merise) — Projet Cinéma
 Entités
+<img width="800" height="472" alt="MCD" src="https://github.com/user-attachments/assets/c6e8090d-a041-45dd-b97f-9b32d5e34ee8" />
 
 FILM
 
@@ -241,6 +240,8 @@ la même salle
 la même dateProjection
 
 ➡️ (film, salle, dateProjection) doit être unique.
+
+<img width="1536" height="1024" alt="structur" src="https://github.com/user-attachments/assets/357981a4-b4b9-442e-a9f4-5cd973b94bc1" />
 
     
 ## Installation et Execution
