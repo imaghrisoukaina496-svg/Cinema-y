@@ -170,7 +170,8 @@ CREATE TABLE utilisateur (
 ```
 🧩 MCD (Merise) — Projet Cinéma
 Entités
-<img width="800" height="472" alt="MCD" src="https://github.com/user-attachments/assets/c6e8090d-a041-45dd-b97f-9b32d5e34ee8" />
+<img width="818" height="443" alt="mmcdd" src="https://github.com/user-attachments/assets/c1eb405f-a435-441b-81e5-f085c2923512" />
+
 
 FILM
 
