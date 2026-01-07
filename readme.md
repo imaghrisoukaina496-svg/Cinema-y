@@ -242,7 +242,8 @@ la même dateProjection
 
 ➡️ (film, salle, dateProjection) doit être unique.
 
-<img width="1536" height="1024" alt="structur" src="https://github.com/user-attachments/assets/357981a4-b4b9-442e-a9f4-5cd973b94bc1" />
+<img width="830" height="363" alt="image" src="https://github.com/user-attachments/assets/17a4cf06-91f0-47f2-89a2-9378ed9bac5c" />
+
 
     
 ## Installation et Execution
