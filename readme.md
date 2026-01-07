@@ -170,7 +170,7 @@ CREATE TABLE utilisateur (
 ```
 🧩 MCD (Merise) — Projet Cinéma
 Entités
-<img width="818" height="443" alt="mmcdd" src="https://github.com/user-attachments/assets/c1eb405f-a435-441b-81e5-f085c2923512" />
+<img width="830" height="363" alt="image" src="https://github.com/user-attachments/assets/25e200f2-f19b-457e-8d3f-324f12bb39b6" />
 
 
 FILM
@@ -242,10 +242,7 @@ la même dateProjection
 
 ➡️ (film, salle, dateProjection) doit être unique.
 
-<img width="830" height="363" alt="image" src="https://github.com/user-attachments/assets/17a4cf06-91f0-47f2-89a2-9378ed9bac5c" />
 
-
-    
 ## Installation et Execution
 https://github.com/user-attachments/assets/5caedcc9-165c-48a5-a010-12e9d8c0bdff
 
